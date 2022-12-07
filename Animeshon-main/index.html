@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Animeshon</title>
+    <!--bot css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!--bot css-->
+    <!--bot js-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    <!--bot js-->
+    <link rel="stylesheet"  href="./css/style.css">
+</head>
+    <body background="./img/Fundo.png">
+      <div class = "logo">
+        <canvas id = "faixaazul"></canvas>
+        <img src="./img/logo_site.PNG" style = "position: absolute; margin-left: -1120px; margin-top: 55px; width: 50px;" id= "logo">
+      </div>
+        <h1>Animeshon</h1>
+        <h2>アニメーション</h2>
+        <a href= https://www.facebook.com/Animeshon.lm id = "quadradofacebook"></a>
+        <svg xmlns="http://www.w3.org/2000/svg" width = "2432" height="19" fill="currentColor" id = "facebook" class="bibi-facebook" viewBox="1 0 16 16" >
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+        </svg>
+        <a href= https://www.instagram.com/Animeshon_l/ id = "quadradoinstagram"></a>
+        <svg xmlns="http://www.w3.org/2000/svg" width="2542" height="19" fill="currentColor" id = "instagram" class="bi bi-instagram" viewBox="0 0 16 16">
+            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+            </svg>
+</body>
+    <body>
+        <!--bot carrousel-->
+    <div id="carouselExampleIndicators" id = "carrousel" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="./img/NarutoCarrousel.png" id = "Naruto" class="d-block w-100" alt="..."></a>
+            <div class="carousel-caption d-none d-md-block">
+                <h3>Site dos seus animes favoritos!</h3>
+                <p>Sipnose, personagens e curiosidades.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="./img/One Piece.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h4>One Piece</h4>
+                <p>"Os anjos nos deram a comida; os demônios, o tempero."</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="./img/poltrona-fullmetal-alchemist.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Fullmetal Alchemist Brotherhood</h5>
+                <p>"Levante-se e ande. Não precisa se agarrar a nada."</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <a href = "yugioh.html"><img src="./img/Yu-Gi-Oh-1.jpg"  class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h6>Yu-Gi-Oh</h6>
+                <p>"É preciso fé na luz para podermos sair da escuridão"</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="./img/Cavaleiros.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h11>Cavaleiros do Zodíaco</h11>
+                <p>"Apenas os perdedores acham que os sonhos são impossíveis.</p>
+            </div>
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+    <!--bot carrousel-->
+    <div class="JUJUTSU">
+      <a href = "index3.html"><img src="./img/Jujutsu.png" id = "aligncenter">
+    </div>
+    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+        <button class = "botãoDragon"><a href = "bragonballSUPER.html"><img src = "img/DragonBall.jpg" id = "button" id = "button1"></button>
+    </div>
+        <a href = "bragonballSUPER.html"><img src = "./img/dragonballzlogo.png" id = "buttonlogo">
+        <button class = "botaoonepiece"><img src="./img/one-piece.jpg" id = "onepiece">
+        <img src = "./img/One-Piece-Simbolo.jpg" id = "onepiecelogo">
+        <button class = "botaochainsaw"><a href = "index2.html" ><img src = "./img/chainsaw.png" id = "chainsaw"></button>
+        <img src="./img/chainsawlogo2.png" id = "chainsawlogo">
+        <button class = "botaopokemon"><img src="./img/pokemon.jpg" id = "pokemon"></button>
+        <img src = "img/pokemon-logo-8.png" id ="pokemonlogo">
+        <button class = "botaosuperonze"><a href = "superonze.html"></a><img src="./img/SuperOnze2.jpg" id = "superonze"></button>
+        <a href = "superonze.html"><img src="./img/Superonzelogo.png" id = "superonzelogo">
+        <button class = "botaofairy"><img src="./img/FAIRY-TAIL.jpg" id = "fairytail"></button>
+        <img src="./img/Fairy-Tail-Logo.png" id = "fairytailogo"></button>
+        <button class = "botaokimetsu"><img src="./img/Kimetsu.png" id = "kimetsu"></button>
+        <img src = "./img/kimetsulogo.png" id = "kimetsulogo"></button>
+        <button class = "botaodragonGT"><a href = "dragonballGT.html"></a><img src="./img/DragonGT.png" id = "dragonGT"></button>
+        <a href = "dragonballGT.html"></a><img src="./img/DragonGTlogo.png" id = "dragonGTlogo">
+        <button class = "botaobleach"><img src="./img/Bleach.png" id = "bleach"></button>
+        <img src="./img/bleachlogo.png" id = "bleachlogo"></button>
+        <button class = "botaopedal"><img src="./img/pedal.png" id = "pedal"></button>
+        <img src="./img/yowamushi-pedal-logo.png" id = "pedallogo"></button>
+    </div>
+    <div class = "personagens">
+        <canvas id = "personagens"></canvas>
+        <h7>Personagens</h7>
+        <h8>mais populares</h8>
+    </div>
+    <div class="card" style="width: 13rem; height: 20rem; margin-left: 955px; margin-top: 50px ;" id = "card">
+        <img class="card-img-top" src="./img/GOKU.png" alt = "Imagem de capa do card">
+        <div class="card-body">
+          <p class="card-text" style="font-size: 10px; margin-left: 4px; text-align: justify; margin-top: 2px;">GOKU serviu como o principal protagonista do esfera do dragão série por 32 anos e manteve o show em execução com sua sagacidade, encantos, inocência e poder.</p>
+          <a href="bragonballSUPER.html" class="btn btn-primary" style = "margin-top: -10px; margin-left: 3px;">Visitar</a>
+        </div>
+      </div>
+      <div class="card" style="width: 13rem; height: 25rem; margin-left: 955px; margin-top: 400px ;" id = "card">
+        <img class="card-img-top" src="./img/LIGHT.png" alt = "Imagem de capa do card">
+        <div class="card-body">
+          <p class="card-text" style="font-size: 10px; margin-left: 1px; text-align: justify; margin-top: -5px;">LIGHT YAGAMI é um dos maiores anti-heróis já feitos. Sua melhor qualidade que o torna um favorito entre os amantes de anime é sua inteligência. Ele é apresentado como um gênio desde o início, sendo o melhor de sua turma e frequentando aulas extras à noite. Mesmo antes de descobrir o Death Note, Light tinha aspirações e desejo de melhorar o mundo.</p>
+          <a href="#" class="btn btn-primary" style = "margin-top: -10px; margin-left: 2px;">Visitar</a>
+        </div>
+      </div>
+      <div class="card" style="width: 13rem; height: 25rem; margin-left: 955px; margin-top: 830px ;" id = "card">
+        <img class="card-img-top" src="./img/Naruto.png" alt = "Imagem de capa do card">
+        <div class="card-body">
+          <p class="card-text" style="font-size: 10px; margin-left: 1px; text-align: justify; margin-top: 10px;">NARUTO UZUMAKI (うずまきナルト, Uzumaki Naruto) é um shinobi de Konohagakure do clã Uzumaki e protagonista homônimo da franquia Naruto. Desde seu nascimento, ele se tornou jinchūriki das Nove-Caudas, um destino que o levou a ser condenado e negligenciado por toda a aldeia durante sua infância.</p>
+          <a href="#" class="btn btn-primary" style = "margin-top: -10px; margin-left: 2px;">Visitar</a>
+        </div>
+      </div>
+      <div class="card" style="width: 13rem; height: 28rem; margin-left: 955px; margin-top: 830px ;">
+        <img class="card-img-top" src="./img/GOJO.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <p class="card-text" style="font-size: 10px; margin-left: 1px; text-align: justify; margin-top: -5px;">SATORU GOJO é um dos principais personagens de Jujutsu Kaisen, e o sensei responsável pelo trio de protagonistas do anime. Ele é um feiticeiro jujutsu de Grau Especial (o mais alto de todos) e é conhecido por todos do mundo Jujutsu como o mais feiticeiro vivo mais poderoso. Além desse título, ele também é a primeira pessoa a herdar os Seis Olhos em cerca de 400 anos.</p>
+          <a href="index3.html" class="btn btn-primary">Visitar</a>
+        </div>
+      </div>
+      <div class="card" style="width: 13rem; height: 21rem; margin-left: 955px; margin-top: 30px ;">
+        <img class="card-img-top" src="./img/Lelouch2.png" alt="Imagem de capa do card">
+        <div class="card-body">
+          <p class="card-text" style="font-size: 10px; margin-left: 1px; text-align: justify; margin-top: -5px;" >LELOUCH é um príncipe forte e inteligente que possui o poder de implantar diretrizes na mente de uma pessoa através do contato visual que ela seguirá sem hesitação. Em um universo paralelo, ele assumiu o papel do enigmático Zero e guiou os combatentes da liberdade japoneses à vitória.</p>
+          <a href="#" class="btn btn-primary">Visitar</a>
+        </div>
+      </div>
+      <div class="card" style="width: 13rem; height: 33rem; margin-left: 955px; margin-top: 30px ;">
+        <img class="card-img-top" src="./img/Monkey.png" alt="Imagem de capa do card">
+        <div class="card-body">
+          <p class="card-text" style="font-size: 10px; margin-left: 1px; text-align: justify; margin-top: -5px;" >MONLEY D. LUFFY é o principal protagonista do mangá e anime, One Piece. Ele é o fundador e capitão dos cada vez mais infames e poderosos Piratas do Chapéu de Palha, bem como um de seus melhores lutadores. Ele deseja encontrar o lendário tesouro deixado para trás pelo falecido Gol D. Roger e assim se tornar o Rei dos Piratas, o que ajudaria a facilitar um sonho desconhecido dele que ele contou apenas para seus irmãos e tripulação. Ele acredita que ser o Rei dos Piratas significa ter a maior liberdade do mundo.</p>
+          <a href="#" class="btn btn-primary">Visitar</a>
+        </div>
+      </div>
+      <div class="card" style="width: 13rem; height: 27rem; margin-left: 955px; margin-top: 30px ;">
+        <img class="card-img-top" src="./img/eren-yeager.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <p class="card-text" style="font-size: 10px; margin-left: 1px; text-align: justify;" >EREN YEAGER foi um ex-membro da Divisão de Reconhecimento e o principal protagonista de Attack on Titan. Ele morou no Distrito de Shiganshina com seus pais e sua irmã adotiva Mikasa Ackerman até a queda da Muralha Maria. Durante o incidente, Eren testemunhou impotentemente sua mãe sendo comida por um Titã. Este evento levaria ao ódio intenso de Eren pelos Titãs, quando ele jurou varrer todos eles da face da Terra.</p>
+          <a href="#" class="btn btn-primary">Visitar</a>
+        </div>
+      </div>
+      <div class="card" style="width: 13rem; height: 38rem; margin-left: 955px; margin-top: 30px ;">
+        <img class="card-img-top" src="./img/ken.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <p class="card-text"  style="font-size: 10px; margin-left: 1px; text-align: justify;" >KEN KANEKI é o principal protagonista da série Tokyo Ghoul. Ele é atualmente o marido de Touka Kirishima e pai de Ichika Kaneki. Anteriormente, ele era um estudante que estudava literatura japonesa na Kamii University, vivendo uma vida relativamente normal. No entanto, isso mudou rapidamente depois que o kakuhou de Rize Kamishiro foi transplantado para ele e o transformou em um ghoul de um olho só . Kaneki é o primeiro ghoul artificial de um olho só conhecido. Seu estado único de meio carniçal é o que mais tarde inspira a ideia do Quinx. Depois de ingressar na Anteiku como garçom em meio período, ele aprende a viver como um ghoul e eventualmente se torna conhecido como Eyepatch.</p>
+          <a href="#" class="btn btn-primary">Visitar</a>
+        </div>
+      </div>
+      <div class="Naruto">
+        <a href="narutoS.html"><img src="./img/NarutoShippuden.jpg" style = "margin-top: -4000px; margin-left: 90px;"id = "aligncenter">
+    </div>
+    <div class = "animes">
+        <canvas id = "animes"></canvas>
+        <h9>Animes</h9>
+        <h10>mais assistidos</h10>
+    </div>
+    <div class = "maisassistidos">
+        <div class="card" style="width: 13rem; height: 30rem; margin-left: 95px; margin-top: 30px ;">
+            <img class="card-img-top" src="./img/Onepiece.jpg" alt="Imagem de capa do card">
+            <div class="card-body">
+              <h5 class="card-title" style = "color: black; font-size: 25px; margin-left: 30px; margin-top: -10px;">One Piece</h5>
+              <p class="card-text"style="font-size: 10px; margin-left: 1px; text-align: justify;" >Houve um homem que conquistou tudo aquilo que o mundo tinha a oferecer, o lendário Rei dos Piratas, Gold Roger. Capturado e condenado à execução pelo Governo Mundial, suas últimas palavras lançaram legiões aos mares. "Meu tesouro? Se quiserem, podem pegá-lo. Procurem-no! Ele contém tudo que este mundo pode oferecer!". Foi a revelação do maior tesouro, o One Piece, cobiçado por homens de todo o mundo, sonhando com fama e riqueza imensuráveis... Assim começou a Grande Era dos Piratas!</p>
+              <a href="#" class="btn btn-primary">Visitar</a>
+            </div>
+          </div>
+    </div>
+    <div class="card" style="width: 13rem; height: 31rem; margin-left: 95px; margin-top: 30px ;">
+        <img class="card-img-top" src="./img/Attack on Titan.jfif" style = "height: 190px;" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title"style = "color: black; font-size: 20px; margin-left: 15px; margin-top: -10px;">Attack on Titan</h5>
+          <p class="card-text"style="font-size: 10px; margin-left: 1px; text-align: justify;" >Eren Jaeger jurou eliminar todos os Titãs, mas em uma batalha desesperada ele se torna aquilo que mais odeia. Com seus novos poderes, ele luta pela liberdade da humanidade, combatendo os monstros que ameaçam seu lar. Mesmo depois de derrotar a Titã Fêmea, Eren não consegue descansar - uma horda de Titãs se aproximam da Muralha Rose e a batalha em nome da humanidade continua!</p>
+          <a href="#" class="btn btn-primary">Visitar</a>
+        </div>
+      </div>
+      <div class="card" style="width: 13rem; height: 30rem; margin-left: 95px; margin-top: 30px ;">
+        <img class="card-img-top" src="./img/DemonSlayer.png" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title"style = "color: black; font-size: 20px; margin-left: 15px; margin-top: -10px;">Demon Slayer</h5>
+          <p class="card-text"style="font-size: 10px; margin-left: 1px; text-align: justify;" >Japão, era Taisho. Tanjiro, um bondoso jovem que ganha a vida vendendo carvão, descobre que sua família foi massacrada por um demônio. E pra piorar, Nezuko, sua irmã mais nova e única sobrevivente, também foi transformada num demônio. Arrasado com esta sombria realidade, Tanjiro decide se tornar um matador de demônios para fazer sua irmã voltar a ser humana, e para matar o demônio que matou sua família. Um triste conto sobre dois irmãos, onde os destinos dos humanos e dos demônios se entrelaçam, começa agora.</p>
+          <a href="#" class="btn btn-primary">Visitar</a>
+        </div>
+      </div>
+      <div class="card" style="width: 13rem; height: 22rem; margin-left: 95px; margin-top: 30px ;">
+        <img class="card-img-top" src="./img/DeathNote.png" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title"style = "color: black; font-size: 20px; margin-left: 30px; margin-top: -10px;">Death Note</h5>
+          <p class="card-text"style="font-size: 10px; margin-left: 1px; text-align: justify;">Light Yagami é um estudante primoroso, com um currículo impecável, popular com as garotas, e entediado que só. Mas sua vida muda quando um Shinigami lhe oferece um caderno capaz de matar qualquer pessoa que ele quiser.</p>
+          <a href="#" class="btn btn-primary">Visitar</a>
+        </div>
+      </div>
+      <div class="card" style="width: 13rem; height: 21rem; margin-left: 95px; margin-top: 30px ;">
+        <img class="card-img-top" src="./img/naruto-shippuden_zy11.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title"style = "color: black; font-size: 16px; margin-left: 17px; margin-top: -10px;">Naruto Shippuden</h5>
+          <p class="card-text"style="font-size: 10px; margin-left: 1px; text-align: justify;">Uzumaki Naruto quer ser o melhor ninja de todos. Ele está indo muito bem, mas com o perigo iminente imposto pela misteriosa Akatsuki, Naruto percebe que ele deve treinar mais que nunca e deixa sua Vila para um intenso treinamento que o pressiona contra seus limites.</p>
+          <a href="narutoS.html" class="btn btn-primary">Visitar</a>
+        </div>
+      </div>
+      <div class="card" style="width: 13rem; height: 34,5rem; margin-left: 95px; margin-top: 30px ;">
+        <img class="card-img-top" src="./img/jujutsu-kaisen-1.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title"style = "color: black; font-size: 16px; margin-left: 17px; margin-top: -10px;">Jujutsu Kaisen</h5>
+          <p class="card-text"style="font-size: 11px; margin-left: 1px; text-align: justify;">Sofrimento, arrependimento, vergonha: os sentimentos negativos dos humanos tornam-se Maldições, causando terríveis acidentes que podem levar até mesmo à morte. E pra piorar, Maldições só podem ser exorcizadas por outras Maldições. Certo dia, para salvar amigos que estavam sendo atacados por Maldições, Yuji Itadori engole o dedo do Ryomen-Sukuna, absorvendo sua Maldição. Ele então decide se matricular no Colégio Técnico de Feitiçaria de Tóquio, uma organização que combate as Maldições... e assim começa a heróica lenda do garoto que tornou-se uma Maldição para exorcizar uma Maldição.</p>
+          <a href="index3.html" class="btn btn-primary">Visitar</a>
+        </div>
+      </div>
+      <div class="card" style="width: 13rem; height: 24rem; margin-left: 95px; margin-top: 30px ;">
+        <img class="card-img-top" src="./img/Pokemon1.png" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title"style = "color: black; font-size: 16px; margin-left: 50px; margin-top: -10px;">Pokémon</h5>
+          <p class="card-text"style="font-size: 11px; margin-left: 1px; text-align: justify;">Ash Ketchum sempre teve como sonho ser um mestre de pokémons. Ele conta como monstro de bolso o arredio Pikachu, que na convivência diária acaba se tornando um grande amigo do garoto. Com a ajuda de outros amigos, Ash parte na jornada até a almejada Liga Pokémon.</p>
+          <a href="#" class="btn btn-primary">Visitar</a>
+        </div>
+        <!-- Grupo de botões grandes (padrões e divididos) -->
+        <div class = "ret2">
+          <canvas id = "ret2"></canvas>
+        </div>
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" style = "background-color: black; width: 250px; height: 50px; margin-top: -9265px; margin-left: 750px;" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Lista de animes
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="narutoS.html">Naruto Shippuden</a></li>
+            <li><a class="dropdown-item" href="dragonballGT.html">Dragon Ball GT</a></li>
+            <li><a class="dropdown-item" href="superonze.html">Super Onze</a></li>
+            <li><a class="dropdown-item" href="bragonballSUPER.html">Dragon Ball Super</a></li>
+            <li><a class="dropdown-item" href="yugioh.html">Yu-Gi-Oh!</a></li>
+            <li><a class="dropdown-item" href="#">Yowamushi Pedal</a></li>
+            <li><a class="dropdown-item" href="index.html">Spy x Family</a></li>
+            <li><a class="dropdown-item" href="index3.html">Jujutsu Kaisen</a></li>
+            <li><a class="dropdown-item" href="index2.html">Chainsaw Man</a></li>
+            <li><a class="dropdown-item" href="index6.html">Fullmetal alchemist brotherhood</a></li>
+            <li><a class="dropdown-item" href="index5.html">JoJo's Bizarre Adventure</a></li>
+            <li><a class="dropdown-item" href="#">One piece</a></li>
+            <li><a class="dropdown-item" href="#">Fairy Tail</a></li>
+            <li><a class="dropdown-item" href="#">Pokémon</a></li>
+            <li><a class="dropdown-item" href="#">Bleach</a></li>
+            <li><a class="dropdown-item" href="#">Yowamushi Pedal</a></li>
+            <li><a class="dropdown-item" href="#">Demon Slayer</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" style = "background-color: black; width: 490px; height: 50px; margin-top: -800px; margin-left: 290px;" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Demais opções
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="narutoS.html">Naruto Shippuden</a></li>
+            <li><a class="dropdown-item" href="bragonballSUPER.html">Dragon Ball Super</a></li>
+            <li><a class="dropdown-item" href="index.html">Spy x Family</a></li>
+            <li><a class="dropdown-item" href="index3.html">Jujutsu Kaisen</a></li>
+            <li><a class="dropdown-item" href="index6.html">Fullmetal alchemist brotherhood</a></li>
+            <li><a class="dropdown-item" href="index5.html">JoJo's Bizarre Adventure</a></li>
+          </ul>
+        </div>
+<div class = "faixafinal">
+  <canvas id = "faixafinal"></canvas>
+  <img src = "img/Animsson.png" style = "width:500px; margin-top: 130px; position: absolute; margin-left: 600px;">
+</div>
+</body>
+</html>

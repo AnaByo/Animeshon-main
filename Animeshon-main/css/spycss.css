@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family= Roboto: wght @300 & display=swap');
+
+body { overflow-x: hidden; width:90%;margin: 0 auto;min-width:300px;max-width:2000px}
+
+
+#faixaazul{
+    background-color: #294386;
+    margin-left: 60px;
+    height: 100px;
+    margin-right: 30px;
+    margin-top: 30px;
+    border-radius: 5px;
+    width: 92%;
+}
+#logo_site{
+    height: 80px;
+    width: 70px;
+    margin-left: 10%;
+    margin-top: -50%;
+    position: absolute;
+}
+
+#nome_logo{
+    margin-left: 250px;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-top: -85px;
+}
+
+#nome_logo2{
+    margin-left: 255px;
+    font-size: 15px;
+    margin-top: -50px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+#retangulo{
+    width: 190px;
+    height: 45px;
+    background-color: #294386;
+    margin-left: 115px;
+    border-radius: 5px;
+    margin-top: 70px;
+    position: absolute;
+}
+#nome{
+    margin-left: 140px;
+    position: absolute;
+    margin-top: 78px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Roboto', "sans-serif";
+}
+#spy{
+    width: 300px;
+    margin-top: 140px;
+    margin-left: 60px;
+}
+.aligncenter {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5px;
+        text-align: center;
+        background-color: white;
+        border: 1px solid #294386;
+        border-radius: 5px;
+}
+#infoprincipal{
+    width: 700px;
+    height: 350px;
+    background-color: #294386;
+    margin-top: -460px;
+    position: absolute;
+    margin-left: 500px;
+    border-radius: 5px;
+}
+.infos{
+    width: 700px;
+    margin-left: 400px;
+    color: #FFFFFF;
+    margin-top: -400px;
+    background-color: #294386;
+    padding: 30px;
+    border-radius: 10px;
+    
+}
+
+#linha1{
+    background-color: #FFFFFF;
+    height: 2px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+    
+}
+
+#infos1{
+    font-weight: bold;
+    font-size: 30px;
+}
+h2{
+    position: absolute;
+    margin-top: -445px;
+    margin-left: 530px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Roboto', 'sans-serif';
+
+}
+#linha1{
+    width: 660px;
+    color: white;
+    margin-top: -400px;
+    position: absolute;
+    margin-left: 520px;
+    height: 1px;
+}
+h3{
+    position: absolute;
+    margin-top: -380px;
+    margin-left: 530px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Roboto', 'sans-serif';
+}
+#linha2{
+    width: 660px;
+    background-color: white;
+    height: 1px;
+    margin-left: 520px;
+    margin-top: -330px;
+    position: absolute;
+}
+h4{
+    position: absolute;
+    margin-top: -310px;
+    margin-left: 530px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Roboto', 'sans-serif';
+}
+#linha3{
+    width: 660px;
+    background-color: white;
+    height: 1px;
+    margin-left: 520px;
+    margin-top: -255px;
+    position: absolute;
+}
+h5{
+    position: absolute;
+    margin-top: -239px;
+    margin-left: 530px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Roboto', 'sans-serif';
+}
+#linha4{
+    width: 660px;
+    background-color: white;
+    height: 1px;
+    margin-left: 520px;
+    margin-top: -192px;
+    position: absolute;
+}
+h6{
+    position: absolute;
+    margin-top: -170px;
+    margin-left: 530px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Roboto', 'sans-serif';
+}
+#sipnose{
+    width: 190px;
+    height: 45px;
+    background-color: #294386;
+    margin-left: 115px;
+    border-radius: 5px;
+    margin-top: 70px;
+    position: absolute;
+}
+h7{
+    margin-left: 160px;
+    position: absolute;
+    margin-top: 74px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Roboto', "sans-serif";
+}
+#card{
+    width: 580px;
+    height: 500px;
+    background-color: #294386;
+    margin-top: 200px;
+    margin-left: 60px;
+    border-radius: 5px;
+    font-family: 'Roboto', 'sans-serif';
+    color: white;
+    font-size: 25px;
+    text-align: justify;
+    position: absolute;
+}
+p{
+    margin: 25px;
+    margin-top: 10px;
+    font-family: 'Roboto', 'sans-serif';
+    text-align: justify;
+    margin-top: 50px;
+}
+p{
+    font-family: 'Roboto', 'sans-serif';
+    margin-top: 10px;
+}
+h14{
+    color: white;
+    position: absolute;
+    margin-top: 75px;
+    margin-left: -200px;
+    font-size: 30px;;
+    font-family: 'Roboto', 'sans-serif';
+}
+h15{
+    color:white;
+    font-size: 40px;
+    margin-left: -470px;
+    margin-top: 155px;
+    font-family: 'Roboto', 'sans-serif';
+    position: absolute;
+}
+h16{
+    margin-left: 160px;
+    position: absolute;
+    margin-top: 105px;
+    color: white;
+    font-size: 30px;
+    margin-left: 200px;
+    font-family: 'Roboto', "sans-serif";
+}
+h17{
+    margin-top: 210px;
+    margin-left: 140px;
+    color: white;
+    position: absolute;
+    font-size: 30px;
+}
+h18{
+    margin-top: 310px;
+    margin-left: 140px;
+    color: white;
+    position: absolute;
+    font-size: 30px;
+}
+h19{
+    margin-top: 410px;
+    margin-left: 140px;
+    color: white;
+    position: absolute;
+    font-size: 30px;
+}
+h20{
+    margin-top: 510px;
+    margin-left: 140px;
+    color: white;
+    position: absolute;
+    font-size: 30px;
+}
+h21{
+    margin-top: 610px;
+    margin-left: 140px;
+    color: white;
+    position: absolute;
+    font-size: 30px;
+}
+h22{
+    color: black;
+    font-size: 50px;
+    font-family: 'Roboto', 'sans-serif';
+    margin-left: 56%;
+    margin-top: -70%;
+    position: absolute;
+}
+#quadradofacebook{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: -100px;
+    margin-top: 100px;
+}
+#facebook{
+    margin-top:-40px;
+    position: absolute;
+    margin-left: -50px;
+}
+#quadradoinstagram{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    margin-left: -100px;
+    margin-top: 63px;
+}
+#instagram{
+    margin-left: -135px;
+    margin-top: 68px;
+    position: absolute;
+    width: 100px;
+}
